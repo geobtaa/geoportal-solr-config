@@ -10,11 +10,11 @@ Configuration originated with the Geoblacklight project at https://github.com/ge
 The `data/` directory is present here, but its contents are not versioned.
 
 ## Example
-Assuming Solr has been installed to `/swadm/usr/loca/solr`:
+Assuming Solr has been installed to `/swadm/usr/local/solr`:
 
 ```shell
 # Clone this repo into a directory like solr-cores/ and link into place
-$ mkdir /swadm/usr/loca/solr-cores
+$ mkdir /swadm/usr/local/solr-cores
 $ cd /swadm/usr/local/solr-cores && git clone git@github.umn.edu:Libraries/geoblacklight-solr-config
 
 # Geoblacklight will be expecting a core named "blacklightcore"
