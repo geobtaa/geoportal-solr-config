@@ -4,6 +4,8 @@ This repo houses static configuration for Blacklight (Geoblacklight) in Solr.
 After Solr has been installed, this directory should be placed via symlink into `solr/server/solr`. 
 It is not advised to copy it there, but rather symlink it into place; when using Rake to load a new solr via `rake solr:clean` (provided by `solr_wrapper`) it would be deleted.
 
+Configuration originated with the Geoblacklight project at https://github.com/geoblacklight/geoblacklight-schema
+
 ## Data
 The `data/` directory is present here, but its contents are not versioned.
 
