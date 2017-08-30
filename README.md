@@ -24,5 +24,5 @@ $ ln -s /usr/local/solr-cores/geoblacklight-solr-config /usr/local/solr/server/s
 Restart Solr to load the core. (while logged in or `su` to the user solr should run as)
 
 ```shell
-$ cd /usr/local/solr && bin/solr/start
+$ cd /usr/local/solr && bin/solr restart
 ```
