@@ -90,33 +90,25 @@ St., Saint, St
 bicycle, bike, biking, bicycles, bikes, cycling
 Arbor, Arbour
 Wisconsin, Ouisconsin
-MDOT, Michigan Department of Transportation, DNR, Department of Natural Resources
-PLSS, Public Land Survey System
+MDOT, Michigan
+DNR, Department
+PLSS, Public
 road, street, roads, streets
 districts, dists
 quads, quadrangles
 ortho, orthos, orthographic
 Rec. Recreation
 railroads, railroad, railway, railways
-Metropolitan Council, Met Council
-Great Britain, United Kingdom
 Pennsylvania, Penna., Pa., PA, Pensylvania, Penfylvania, Pennsilvania, Pensilvania
-Pennsylvania Department of Transportation, PennDOT
-Pennsylvanid Department of Environmental Resources, PaDEP, PADEP
-Pennsylvania Department of Conservation and Natural Resources, Pa DCNR, PADCNR
-Illinois, IL, Ill, Illlinois, Illinios, Ilinois, Illini, Illinis, Illinos, Prairie State, Land of Lincoln, midwest, midwestern, middle west, Chicago
-Chicago, Chicago land, Chicago suburbs, Windy City, Sears Tower, Illinois
-Prairie Research Institute, PRI
-Illinois State Water Survey, ISWS
-Illinois State Geologic Survey, ISGS
-Illinois Natural History Survey, INHS
-Illinois State Archeological Survey, ISAS
-Illinois Sustainable Technology Institute, ISTI
-Illinois Department of Natural Resources, Illinois DNR, IDNR
-midwest, midwestern, middle west, mid-west
+Pennsylvania, PennDOT, PADEP, PADCNR
+Illinois, IL, Ill, Illlinois, Illinios, Ilinois, Illini, Illinis, Illinos
+midwest, midwestern, middle-west, mid-west
+Chicago, Chicagoland
+Prairie, PRI
+Illinois, ISWS, ISGS, INHS, ISAS, ISTI, IDNR
 Bloomington, Btown, Bton
-Indiana Department of Transportation, INDOT
-Interstate 69, I69, I-69
-Indiana Geological Survey, IGS
-Indiana University, IU, IUB, Indiana University Bloomington, Indiana Univ
+Indiana, INDOT
+Interstate, I69, I-69
+Indiana, IGS
+IU, IUB, Indiana
 county, coty, co, cty
