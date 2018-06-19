@@ -1,7 +1,7 @@
 # Solr Core Config for Geoblacklight
 This repo houses static configuration for Blacklight (Geoblacklight) in Solr.
 
-After Solr has been installed, this directory should be placed via symlink into `solr/server/solr`. 
+After Solr has been installed, this directory should be placed via symlink into `solr/server/solr`.
 It is not advisable to copy it there, but rather symlink it into place. Certain toolchains like the `solr_wrapper` gem's `rake` tasks may delete it otherwise.
 
 Configuration originated with the Geoblacklight project at https://github.com/geoblacklight/geoblacklight-schema
@@ -26,3 +26,6 @@ Restart Solr to load the core. (while logged in or `su` to the user solr should 
 ```shell
 $ cd /usr/local/solr && bin/solr restart
 ```
+
+### Release Version
+B1G Geoportal Version 1.8.9 / GeoBlacklight 1.8.0
