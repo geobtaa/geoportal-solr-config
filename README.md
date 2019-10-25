@@ -28,4 +28,4 @@ $ cd /usr/local/solr && bin/solr restart
 ```
 
 ### Release Version
-B1G Geoportal Version 2.0.0 / GeoBlacklight 2.0.0
+B1G Geoportal Version 2.2.9 / GeoBlacklight 2.2.1
