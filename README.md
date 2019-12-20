@@ -27,6 +27,9 @@ Restart Solr to load the core. (while logged in or `su` to the user solr should 
 $ cd /usr/local/solr && bin/solr restart
 ```
 
+## Deployment
+BTAA Geoportal core deployment instructions reside in internal UMN server build docs.
+
 ## Branches and Core Name
 `core.properties` must bear the correct name `development` or `production` in the `develop` and `master` branches respectively.
 
