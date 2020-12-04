@@ -4,6 +4,18 @@
   <fields>
     <field name="_version_" type="long"   stored="true" indexed="true"/>
     <field name="timestamp" type="date"   stored="true" indexed="true" default="NOW"/>
+
+    <!-- Kithe -->
+    <!-- id is the unique key -->
+    <field name="id" type="string" stored="true" indexed="true" multiValued="false" required="true"/>
+    <!-- model_name_ssi -->
+    <dynamicField name="*_ssi" type="string" stored="true" indexed="true" multiValued="false"/>
+    <!-- date_created_dtsi -->
+    <dynamicField name="*_dtsi" type="pdate" stored="true" indexed="true" multiValued="false"/>
+
+    <!-- END Kithe -->
+
+    <!-- GeoBlacklight -->
     <field name="layer_slug_s" type="string" stored="true" indexed="true" required="true"/>
     <field name="geoblacklight_version" type="string" stored="true" indexed="true"/>
     <field name="uuid" type="string" stored="true" indexed="true"/><!-- deprecated -->
@@ -93,6 +105,9 @@
 
     <!-- A DateRange based date field for truly faster date range queries. -->
     <fieldType name="dateRange" class="solr.DateRangeField"/>
+
+    <!-- KD-tree versions of date fields -->
+    <fieldType name="pdate" class="solr.DatePointField" docValues="true"/>
 
     <!--Binary data type. The data should be sent/retrieved in as Base64 encoded Strings -->
     <fieldtype name="binary" class="solr.BinaryField"/>
