@@ -63,7 +63,20 @@
     </lst>
   </requestHandler>
 
-  <requestHandler name="/replication" class="solr.ReplicationHandler" startup="lazy" />
+  <!-- Basic backup handler replication -->
+  <!--requestHandler name="/replication" class="solr.ReplicationHandler" startup="lazy" /-->
+  <!-- Replication slave -->
+  <!--
+  <requestHandler name="/replication" class="solr.ReplicationHandler" startup="lazy">
+    <lst name="slave">
+        <str name="masterUrl">https://geomg.example.com/solr/geomg/replication</str>
+        <str name="pollInterval">00:05:00</str>
+        <str name="httpBasicAuthUser">authusername</str>
+        <str name="httpBasicAuthPassword">authpassword</str>
+    </lst>
+  </requestHandler>
+  -->
+  <!-- ANSIBLE-MANAGED-REPLICATION KEEP THIS LINE -->
 
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Query section - these settings control query time things like caches
