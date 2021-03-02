@@ -49,7 +49,7 @@
       <str name="dir">${solr.ulog.dir:}</str>
     </updateLog>
     <autoCommit>
-      <maxTime>600000</maxTime>
+      <maxTime>120000</maxTime>
       <openSearcher>false</openSearcher>
     </autoCommit>
   </updateHandler>
