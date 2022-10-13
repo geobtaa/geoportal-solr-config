@@ -54,4 +54,4 @@ javax.servlet.ServletException: javax.servlet.UnavailableException: Error proces
 
 ### Release Version
 
-B1G Geoportal Version 4.3.1 / GEOMG 0.11.2 / GeoBlacklight 4.0.0
+B1G Geoportal Version 4.8.0 / GEOMG 0.15.1 / GeoBlacklight 4.0.0
