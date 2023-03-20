@@ -76,8 +76,7 @@
     </lst>
   </requestHandler>
   -->
-  <!-- ANSIBLE-MANAGED-REPLICATION KEEP THIS LINE -->
-
+  <requestHandler name="/replication" class="solr.ReplicationHandler" startup="lazy" />
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Query section - these settings control query time things like caches
        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
