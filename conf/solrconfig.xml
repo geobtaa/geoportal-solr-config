@@ -76,7 +76,9 @@
     </lst>
   </requestHandler>
   -->
+  <!-- Enables replication to create solr backups  -->
   <requestHandler name="/replication" class="solr.ReplicationHandler" startup="lazy" />
+
   <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
        Query section - these settings control query time things like caches
        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
